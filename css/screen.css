@@ -184,6 +184,43 @@ a:hover, a:focus {
     color: #1ABAFF;
 }
 
+/*
+    Components: author
+*/
+
+.c-author {
+    display: flex;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.c-author__image {
+    height: 56px;
+    width: 56px;
+    border-radius: 100%;
+    margin-right: 16px;
+}
+
+.c-author__caption {
+    padding-top: 0;
+}
+
+.c-author__name, .c-author__meta {
+    margin-bottom: 0;
+}
+
+.c-author__meta {
+    font-size: 14px;
+    font-family: "Inter UI", Helvetica, arial, sans-serif;
+    line-height: 16px;
+    margin-top: 4px;
+}
+
+.c-author__name {
+    font-size: 16px;
+    line-height: 16px;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) {}
